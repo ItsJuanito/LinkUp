@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "c990d575dc9145060af2f2ee5611e4190e5374b971b88d87"
+SECRET_KEY = ""
 DEBUG_VALUE = 'True'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = DEBUG_VALUE == 'True'
@@ -145,13 +145,6 @@ EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
-
-AWS_ACCESS_KEY_ID = "AKIAWAX5LGOYLOA4FLFK"
-AWS_SECRET_ACCESS_KEY = "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"
-AWS_STORAGE_BUCKET_NAME = "django-link-up"
-
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
 
 DEFAULT_FILE_STORAGES = 'storages.backends.s3boto3.S3Boto3Storage'
 
