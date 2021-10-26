@@ -7,7 +7,7 @@
 - links: contains post information such as templates, url paths, migrations, views, and models.
 - media: stored media content.
 
-# Things to install (Linux Unix)
+# Things to install (Linux/Unix)
 - $ python -m django --version
 - $ django-admin startproject mysite
 - $ pip install django-crispy-forms
