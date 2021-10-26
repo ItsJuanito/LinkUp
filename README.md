@@ -2,7 +2,7 @@
  A social media reference application similar to Linktree.
  
 # Folders
-- mysite: contains settings.py which includes dependencies 
+- mysite: contains settings.py which includes dependencies and base url paths.
 - user: has user programs such as migrations folder ,models, views, and forms files.
 - links: contains post information such as templates, url paths, migrations, views, and models.
 - media: stored media content.
